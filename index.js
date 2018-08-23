@@ -20,10 +20,6 @@ function deleteFromDriverByKey (driver, key, value) {
   const newObj = Object.assign({}, driver);
   delete newObj[key];
   return newObj;
-  
 }
 
-
-function deleteFromDriverByKey (oldMenu, menuChanges) {
-  return Object.assign({}, oldMenu, menuChanges);
-}
+function
