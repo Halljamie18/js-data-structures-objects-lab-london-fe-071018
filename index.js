@@ -11,7 +11,7 @@ function updateDriverWithKeyAndValue (driver, key, value) {
 const driver = {};
 
 function updateDriverWithKeyAndValue (driver, key, value) {
-  driver
+  driver.key = value
   return obj;
 }
 
