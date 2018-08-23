@@ -11,7 +11,7 @@ function updateDriverWithKeyAndValue (driver, key, value) {
 
 
 function updateDriverWithKeyAndValue (driver, key, value) {
-  driver[key] = value
+  driver[key] = value;
   return driver;
 }
 
