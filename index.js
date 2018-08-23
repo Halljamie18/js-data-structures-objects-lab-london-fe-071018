@@ -7,3 +7,4 @@ function updateDriverWithKeyAndValue (driver, key, value) {
   newObj[key] = value;
   return obj;
 }
+
