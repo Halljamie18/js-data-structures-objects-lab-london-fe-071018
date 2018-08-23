@@ -22,3 +22,8 @@ function deleteFromDriverByKey (driver, key, value) {
   return newObj;
   
 }
+
+
+function deleteFromDriverByKey (oldMenu, menuChanges) {
+  return Object.assign({}, oldMenu, menuChanges);
+}
