@@ -8,3 +8,11 @@ function updateDriverWithKeyAndValue (driver, key, value) {
   return obj;
 }
 
+const driver = {};
+
+function updateDriverWithKeyAndValue (driver, key, value) {
+  const newObj = Object.assign
+  newObj[key] = value;
+  return obj;
+}
+
